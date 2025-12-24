@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.top-header {
+  background: #fff;
+  border-bottom: 3px solid #004b87;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header h2 {
+  color: #004b87;
+}
+
+.menu {
+  background: #004b87;
+  padding: 10px;
+}
+
+.menu a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.section {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  background: #e6f0fa;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section > div,
+.section table,
+.section input,
+.section textarea {
+  padding: 10px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 60px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.captcha-box {
+  background: orange;
+  padding: 5px 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.save-btn {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #43a047;
+}
